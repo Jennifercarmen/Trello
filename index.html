@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Trello</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/icons/font-awesome/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+    <!-- Cabecera-Trello -->
+    <header>
+        <div class="board left">
+            <i class="fa fa-trello"></i>
+            <span>Tableros</span>
+        </div>
+        <div class="header-search left">
+            <i class="fa fa-search white rigth"></i>
+        </div>
+        <div class="logo">
+            <img src="assets/img/trelloLogoWhite.svg" alt="Trello Logo">
+        </div>
+        <div class="header_user rigth">
+            <div class="icon-user">
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="icon-user">
+                <i class="fa fa-exclamation"></i>
+            </div>
+            <div class="icon-user">
+                <i class="fa fa-bell-o"></i>
+            </div>
+        </div>
+        <div class="userCircle rigth">
+            <img src="assets/img/user.jpg" alt="">
+        </div>
+    </header>
+    <!-- Sección Menu -->
+    <section class="tablero-options">
+        <div class="title">
+            <h2>Tablero-Reto de código</h2>
+        </div>
+        <div class="icon-tablero star">
+            <i class=" fa fa-star-o"></i>
+        </div>
+        <div class="icon-tablero lock">
+            <i class=" fa fa-lock"></i>
+            <span>Privado</span>
+        </div>
+        <div class="menu rigth white">
+            <h3> Mostrar menú</h3>
+        </div>
+    </section>
+    <!-- Sección Tarjetas -->
+    <section>
+        <div id="contenedor">
+            <div id="tarjeta">
+                <button id="button_tarjeta">Agrega una tarjeta...</button>
+                <div id="añade_tarjeta" class="card">
+                    <input id="tinput" class="inputcard" placeholder="Agrega una tarjeta...">
+                    <button id="btnGuardar">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
